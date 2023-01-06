@@ -89,3 +89,38 @@ header {
   margin-bottom: 8px;
 }
 /* My Plans Section Styles */
+.my-plans {
+  margin: 120px 200px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.my-plans h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+
+.my-plans-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.my-plans-item {
+  text-align: center;
+}
+
+.my-plans-item h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin: 15px 0;
+}
+
+.my-plans-item p {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
