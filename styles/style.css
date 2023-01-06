@@ -44,3 +44,9 @@ header {
   font-family: "Work Sans", sans-serif;
   border-radius: 5px;
 }
+
+/* Previous Year Section Styles */
+.previous-year-container {
+  display: flex;
+  align-items: center;
+}
