@@ -34,7 +34,7 @@ header {
   margin-bottom: 32px;
 }
 
-.header-container button {
+.primary-btn {
   width: 160px;
   height: 64px;
   font-weight: 600;
@@ -123,4 +123,29 @@ header {
   font-weight: 500;
   font-size: 25px;
   color: #737272;
+}
+
+/* Banner Section Styles */
+.banner {
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("../images/watch.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-bottom: 130px;
+}
+
+.banner-container {
+  padding: 34px 0px;
+  margin-left: 65px;
+  float: left;
+  text-align: left;
+  padding-right: 442px;
+}
+
+.banner-container h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 24px;
 }
