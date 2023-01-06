@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 /* Header Section Styles */
 header {
   background-image: url("../images/banner/banner3.png");
@@ -46,7 +47,44 @@ header {
 }
 
 /* Previous Year Section Styles */
+.previous-year {
+  margin-left: 150px;
+  margin-right: 200px;
+}
+
 .previous-year-container {
   display: flex;
   align-items: center;
+  gap: 50px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.previous-year-description h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+
+.previous-year-description > p {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+
+.previous-year-tasks {
+  font-family: "Work Sans", sans-serif;
+}
+
+.tasks {
+  display: flex;
+  gap: 8px;
+}
+
+.tasks p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 8px;
 }
