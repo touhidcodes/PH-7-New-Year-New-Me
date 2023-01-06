@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+/* Header Section Styles */
+header {
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 808px;
+}
+
+.header-container {
+  width: 525px;
+  height: 228px;
+  text-align: right;
+  padding-top: 150px;
+  margin-right: 200px;
+  float: right;
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+}
+
+.header-container h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.header-container p {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 50px;
+  margin-bottom: 32px;
+}
+
+.header-container button {
+  width: 160px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #005fac;
+  border: 0;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 5px;
+}
