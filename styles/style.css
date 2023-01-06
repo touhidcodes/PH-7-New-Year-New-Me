@@ -37,7 +37,7 @@ header {
 .primary-btn {
   width: 160px;
   height: 64px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   text-align: center;
   color: #005fac;
@@ -88,6 +88,7 @@ header {
   color: #444343;
   margin-bottom: 8px;
 }
+
 /* My Plans Section Styles */
 .my-plans {
   margin: 120px 200px;
@@ -151,3 +152,81 @@ header {
 }
 
 /* Future Section Styles */
+.future {
+  background: #151414;
+}
+
+.future-container {
+  display: flex;
+  gap: 250px;
+  padding: 130px 200px;
+}
+.future-description {
+  font-family: "Work Sans", sans-serif;
+}
+
+.future-description h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 18px;
+}
+
+.future-description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.social {
+  margin-right: 17px;
+}
+
+.submit-email {
+  font-family: "Work Sans", sans-serif;
+}
+
+.submit-email h4 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.submit-email input {
+  width: 325px;
+  height: 64px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background: #151414;
+  color: #ffffff;
+  padding: 20px;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 15px;
+}
+
+.secondary-btn {
+  width: 170px;
+  height: 64px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+  font-family: "Work Sans", sans-serif;
+  background: #005fac;
+  border-radius: 5px;
+}
+
+/* Button Hover Effect */
+.primary-btn:hover {
+  background-color: #358ed7;
+  color: #ffffff;
+}
+
+.secondary-btn:hover {
+  color: #358ed7;
+  background-color: #ffffff;
+}
