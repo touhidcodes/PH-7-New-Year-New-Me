@@ -106,7 +106,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .my-plans-item {
@@ -124,6 +124,52 @@ header {
   font-weight: 500;
   font-size: 25px;
   color: #737272;
+}
+
+/* Custom My Goals Section Styles */
+.my-goals {
+  margin: 120px 250px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.my-goals h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+
+.my-goals-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.my-goals-item {
+  height: 360px;
+  width: 400px;
+  background-color: grey;
+  text-align: center;
+  border-radius: 8px;
+  padding: 30px 50px;
+}
+
+.my-goals-item h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.goal-item1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+
+.goal-item2 {
+  background: rgba(255, 89, 89, 0.1);
 }
 
 /* Banner Section Styles */
